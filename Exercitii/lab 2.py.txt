@@ -1,0 +1,28 @@
+  is_palindrome(n) -> bool
+  '''
+  Determina daca un numar este palindrom
+  Input:
+  -n : intreg,numarul care trebuie verificat
+  Output:
+  -True daca este palindrom
+  -False daca nu este palindrom
+  '''
+    nr1 = n
+    inv=0
+    while n
+     inv = inv *10 + n%10;
+     n = n/10
+    if inv == n
+      return True
+     else
+      return False
+
+  def main()
+  while True:
+  print('1. Numar palindrom.')
+  optiune = input('Alegeti o optiune: ')
+  if option == '1':
+    nr1 = int(input('Dati un numar: '))
+    Palindrom = is_palindrome(n) -> bool
+    print(f'Numarul {nr1} este {palindrom}')
+    main()

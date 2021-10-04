@@ -1,42 +1,16 @@
-'''
-Returneaza true daca n este prim si false daca nu. .
-'''
-def is_prime(n):
-  >>> n=input()
-   d=2
-   while d<=n/2
-      if d%n=0
-       d++
-       n=n/d
-       print ("false")
-
-      if d=2
-        print ("true")
-  
-  
-'''
-Returneaza produsul numerelor din lista lst.
-'''
-def get_product(lst):
-  >>>
-  
-  
-'''
-Returneaza CMMDC a doua numere x si y folosind primul algoritm.
-'''
-def get_cmmdc_v1(x, y):
-  # codul vostru aici
-  
-  
-'''
-Returneaza CMMDC a doua numere x si y folosind al doilea algoritm.
-'''
-def get_cmmdc_v2(x, y):
-  # codul vostru aici
-  
-  
-def main():
-  # interfata de tip consola aici
-
-if __name__ == '__main__':
-  main()
+def is_palindrome(n):
+    '''
+    Determina daca un numar este palindrom.
+    -Input: n
+     -Output : "Numarul este palindrom" sau "Numarul nu este palindrom"
+    '''
+    inv = 0
+    x = n
+    ogl=0
+    while n!= 0:
+        ogl=ogl * 10 + n % 10
+        n = n / 10
+    if x == ogl :
+        print(f'Numarul este palindrom')
+    elif x !=ogl :
+        print(f'Numarul nu este palindrom')
