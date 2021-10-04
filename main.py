@@ -2,14 +2,23 @@
 Returneaza true daca n este prim si false daca nu. .
 '''
 def is_prime(n):
-  # codul vostru aici
+  >>> n=input()
+   d=2
+   while d<=n/2
+      if d%n=0
+       d++
+       n=n/d
+       print ("false")
+
+      if d=2
+        print ("true")
   
   
 '''
 Returneaza produsul numerelor din lista lst.
 '''
 def get_product(lst):
-  # codul vostru aici
+  >>>
   
   
 '''
